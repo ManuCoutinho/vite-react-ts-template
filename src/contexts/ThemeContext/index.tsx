@@ -4,6 +4,7 @@ import { parseCookies, setCookie } from 'nookies'
 
 import { ThemeType } from './types'
 import { combineTheme, light, dark } from '../../styles/theme'
+import GlobalStyle from '../../styles/Global'
 
 export const ThemeContext = createContext<ThemeType>({} as ThemeType)
 
@@ -35,7 +36,10 @@ export function ThemeContextProvider({ children }: { children: ReactNode }) {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+      <ThemeProvider theme={theme}>
+        {children}
+        <GlobalStyle />
+      </ThemeProvider>
     </ThemeContext.Provider>
   )
 }

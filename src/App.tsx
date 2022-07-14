@@ -1,3 +1,3 @@
 export const App: React.FC = () => {
-  return <h1>Awesome Template</h1>
+  return <h1>Awesome Vitejs && React Template⭐</h1>
 }

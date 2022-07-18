@@ -16,6 +16,14 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/.jest/setupTests.ts"],
+  "include": [
+    "./src",
+    "./src/styles/theme/renderTheme.ts",
+    "./src/.jest/setupTests.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.spec.tsx"
+  ],
+  "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

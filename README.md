@@ -30,16 +30,12 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ```cmd
 # Clone this project
 $ git clone https://github.com/manucoutinho/vite-react-ts-template
-
 # Access
 $ cd vite-template
-
 # Install dependencies
 $ npm install
-
 # Run the project
 $ npm run dev
-
 # The server will initialize in the <http://localhost:3000>
 ```
 

@@ -4,7 +4,7 @@
 
 - React@18
 - Typescript
-- Vite@3
+- Vite@4
 - Jest
 - Testing Library
 - Eslint

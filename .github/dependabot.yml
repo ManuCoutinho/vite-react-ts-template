@@ -5,11 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
+  - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-      ignore:
+    ignore:
       - dependency-name: '*'
         update-types: ['version-update:semver-patch']
     commit-message:

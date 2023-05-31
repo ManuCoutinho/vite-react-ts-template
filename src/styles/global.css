@@ -23,13 +23,14 @@ section {
 h1 {
   font-size: 3rem;
   color: transparent;
+  -webkit-background: linear-gradient(to right, #7776a4, #c6a6b9,#7776a4, #b3838d);
   background: linear-gradient(to right, #7776a4, #c6a6b9,#7776a4, #b3838d);
+  background-clip: text;
   background-clip: text;
 }
 
 .logo {
   margin-top: 2rem;
-  animation: heartbeat 1.5s ease-in-out infinite both;
 	animation: heartbeat 1.5s ease-in-out infinite both;
 
 }
@@ -39,78 +40,56 @@ h1 {
 }
 
 @keyframes heartbeat {
-  from {
-    transform: scale(1);
+  0% {
             transform: scale(1);
-    transform-origin: center center;
             transform-origin: center center;
-    animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
 
   10% {
-    transform: scale(0.91);
             transform: scale(0.91);
-    animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
 
   17% {
-    transform: scale(0.98);
             transform: scale(0.98);
-    animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
 
   33% {
-    transform: scale(0.87);
             transform: scale(0.87);
-    animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
 
   45% {
-    transform: scale(1);
             transform: scale(1);
-    animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
 }
 @keyframes heartbeat {
-  from {
-    transform: scale(1);
+  0% {
             transform: scale(1);
-    transform-origin: center center;
             transform-origin: center center;
-    animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
 
   10% {
-    transform: scale(0.91);
             transform: scale(0.91);
-    animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
 
   17% {
-    transform: scale(0.98);
             transform: scale(0.98);
-    animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
 
   33% {
-    transform: scale(0.87);
             transform: scale(0.87);
-    animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
 
   45% {
-    transform: scale(1);
             transform: scale(1);
-    animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
 }

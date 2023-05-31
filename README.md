@@ -1,5 +1,9 @@
 <h1 align="center">Vitejs/React Template</h1>
 
+I created this template to make your life (and mine) easier when you need to start a new React project, using Vite.js, which includes the basic setup.
+The styling method is up to you 😉.
+Just clone the repository, install the dependencies and start coding.
+
 ⭐Awesome template for Vitejs project's with:
 
 - React@18
@@ -13,9 +17,11 @@
 - Husky
 - Lint Staged
 
+_Happy hacking!_
+
 ## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node (lts version)](https://nodejs.org/en/) installed.
 
 ## :checkered_flag: Starting
 

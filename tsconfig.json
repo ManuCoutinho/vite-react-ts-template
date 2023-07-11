@@ -21,13 +21,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src",
-    ".jest/jest.setup.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.spec.tsx"
-  ],
+  "include": ["src", "**/*.ts", "**/*.tsx", "**/*.spec.tsx"],
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

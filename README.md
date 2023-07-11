@@ -9,7 +9,7 @@ Just clone the repository, install the dependencies and start coding.
 - React@18
 - Typescript
 - Vite@4
-- Jest
+- Vitest
 - Testing Library
 - Eslint
 - Prettier
@@ -26,15 +26,15 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ## :checkered_flag: Starting
 
 ```bash
-# Clone this project
-$ git clone https://github.com/manucoutinho/vite-react-ts-template
+# Clone this project  OR use as template
+$ git clone https://github.com/manucoutinho/vite-react-ts-template.git
 # Access
 $ cd vite-react-ts-template
 # Install dependencies
 $ npm install
 # Run the project
 $ npm run dev
-# The server will initialize in the <http://localhost:5173>
+# The dev server will initialize in the <http://localhost:5173>
 ```
 
 ## :memo: License

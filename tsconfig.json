@@ -15,14 +15,10 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "incremental": true,
-    "types": ["node"],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "incremental": true
   },
   "include": [
-    "src",
+    "./src",
     ".jest/jest.setup.ts",
     "**/*.ts",
     "**/*.tsx",

@@ -5,10 +5,17 @@
 
 version: 2
 updates:
+<<<<<<< Updated upstream
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+=======
+  - package-ecosystem: 'npm' # See documentation for possible values
+    directory: '/' # Location of package manifests
+    schedule:
+      interval: 'monthly'
+>>>>>>> Stashed changes
     ignore:
       - dependency-name: '*'
         update-types: ['version-update:semver-patch']

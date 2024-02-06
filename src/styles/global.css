@@ -38,9 +38,13 @@ h1 {
   -webkit-background-clip: text;
 }
 
+h3 {
+  color: #c6a6b9;
+}
+
 .logo {
   margin-top: 2rem;
-  animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 2800ms ease-in-out infinite both;
   max-width: 20rem;
 }
 
@@ -49,9 +53,37 @@ h1 {
   object-fit: contain;
 }
 
+.wrapper__button {
+  width: 30rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.wrapper__button > a {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid #7776a4;
+  background: inherit;
+  color: #c6a6b9;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: border-color 250ms ease-in;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wrapper__button > a:hover {
+  transition: border-color 250ms ease-in;
+  border: 2px solid #b3838d;
+}
+
 @keyframes heartbeat {
   0% {
-    transform: scale(1) rotate(0deg);
+    transform: scale(1);
     transform-origin: center center;
     animation-timing-function: ease-out;
   }
@@ -72,10 +104,7 @@ h1 {
   }
 
   45% {
-    transform: scale(1) rotate(180deg);
+    transform: scale(1);
     animation-timing-function: ease-out;
-  }
-  100%{
-    transform: rotate(360deg)
   }
 }

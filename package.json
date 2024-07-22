@@ -1,7 +1,7 @@
 {
   "name": "react-ts-boilerplate",
-  "private": true,
-  "version": "1.4.0",
+  "private": false,
+  "version": "1.6.0",
   "author": "Emanuela Coutinho",
   "license": "MIT License",
   "description": "Boilerplate vite, react, ts",
@@ -20,8 +20,8 @@
     "boilerplate"
   ],
   "engines": {
-    "node": ">=18.16",
-    "npm": ">=8.19.6"
+    "node": ">=20.x",
+    "npm": ">=10.x"
   },
   "scripts": {
     "dev": "vite",
@@ -64,10 +64,10 @@
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^24.0.0",
     "lint-staged": "^13.1.0",
-    "prettier": "^3.2.4",
-    "semantic-release": "^21.0.7",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.5.3",
     "vite": "^4.5.3",
     "vitest": "^1.6.0"
   }

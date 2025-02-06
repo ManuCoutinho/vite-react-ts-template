@@ -1,7 +1,7 @@
 {
   "name": "react-ts-boilerplate",
   "private": false,
-  "version": "1.6.0",
+  "version": "1.7.0",
   "author": "Emanuela Coutinho",
   "license": "MIT License",
   "description": "Boilerplate vite, react, ts",
@@ -20,7 +20,7 @@
     "boilerplate"
   ],
   "engines": {
-    "node": ">=20.x",
+    "node": ">=22.x",
     "npm": ">=10.x"
   },
   "scripts": {
@@ -29,7 +29,7 @@
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.tsx src --fix",
     "test": "vitest --run",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "lint-staged": {
     "*.{ts,tsx}": [

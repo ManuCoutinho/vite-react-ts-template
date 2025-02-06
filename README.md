@@ -8,7 +8,7 @@ Just clone the repository, install the dependencies and start coding.
 
 - React@18
 - Typescript
-- Vite@4
+- Vite@5
 - Vitest
 - Testing Library
 - Eslint

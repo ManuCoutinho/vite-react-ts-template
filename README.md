@@ -6,16 +6,15 @@ Just clone the repository, install the dependencies and start coding.
 
 ⭐Awesome template for Vitejs project's with:
 
-- React@18
+- React@19
 - Typescript
-- Vite@5
+- Vite@8
 - Vitest
 - Testing Library
 - Eslint
 - Prettier
 - Stylelint
 - Husky
-- Lint Staged
 
 _Happy hacking!_
 
